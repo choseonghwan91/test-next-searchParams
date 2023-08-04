@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       home
-      <button onClick={() => router.push("blog")}>test</button>
+      <button onClick={() => router.push("blog?a=1")}>test</button>
     </div>
   );
 }
